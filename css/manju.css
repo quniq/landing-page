@@ -98,13 +98,45 @@ li {
     }
 }
 
+/**logo**/
+
+.py-logo-main {
+    width: 200px;
+    padding: inherit;
+    text-align: center;
+}
+
+
 /** buttons **/
+
+.py-btn-access {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    /* background: #000000; */
+    padding: .6rem 1rem;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    color: #000000;
+    display: inline-block;
+    min-width: 145px;
+}
+
+.py-btn-access--wht {
+    background: #ffffff;
+    color: #ff0000;
+}
+
+.py-btn-access--wht:hover {
+    color: #ffffff !important;
+}
 
 .py-btn-sucess {
     font-size: 16px;
     line-height: 28px;
     font-weight: 500;
-    background: #17B04C;
+    background: #000000;
     padding: .7rem 1rem;
     text-align: center;
     border-radius: 5px;
@@ -206,7 +238,7 @@ p {
 }
 
 .py-sudeo-gd::before {
-    content: "";
+    /* content: ""; */
     position: absolute;
     left: 0;
     height: calc(100% - 45%);
@@ -263,6 +295,7 @@ p {
 .py-illustrator img {
     max-width: 100%;
     margin-top: 42px;
+    padding-right: 175px;
     min-height: 100%;
 }
 
