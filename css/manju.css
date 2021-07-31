@@ -40,10 +40,36 @@ li {
 
 @media (min-width:992px) {
     .section-heading {
-        font-size: 55px;
+        font-size: 65px;
         line-height: 80px;
     }
 }
+
+.section-heading-contact {
+    font-size: 28px;
+    line-height: 48px;
+    color: #333333;
+    font-weight: 400;
+}
+
+@media (min-width:768px) {
+    .section-heading-contact {
+        color: rgb(255, 255, 255);
+        padding-bottom: 40px;
+        font-size: 45px;
+        line-height: 70px;
+    }
+}
+
+@media (min-width:992px) {
+    .section-heading-contact {
+        color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+        font-size: 65px;
+        line-height: 80px;
+    }
+}
+
 
 .section-title {
     font-size: 24px;
@@ -88,6 +114,16 @@ li {
     }
 }
 
+.section-padding68 {
+    padding: 3rem 0;
+}
+
+@media (min-width:992px) {
+    .section-padding68 {
+        padding: 5rem 0;
+    }
+}
+
 .py-73 {
     padding: 50px 0;
 }
@@ -98,12 +134,29 @@ li {
     }
 }
 
+.py-98 {
+    padding: 70px 0;
+    /* background: #CBFDDC; */
+}
+
 /**logo**/
 
 .py-logo-main {
     width: 200px;
     padding: inherit;
     text-align: center;
+}
+
+
+.py-logo-foot {
+    width: 200px;
+    padding: inherit;
+    padding-bottom: 50px;
+}
+
+.py-social-foot {
+    width: 20px;
+    padding: 50px 0 50px 0;
 }
 
 
@@ -128,9 +181,37 @@ li {
     color: #ff0000;
 }
 
-.py-btn-access--wht:hover {
+.py-btn-access:hover {
+    border-color: #000000;
+    background-color: #000000;
     color: #ffffff !important;
 }
+
+.py-btn-access-contact {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    /* background: #000000; */
+    padding: .6rem 1rem;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    min-width: 145px;
+}
+
+.py-btn-access-contact--wht {
+    background: #ffffff  !important;
+    color: #ff0000;
+}
+
+.py-btn-access-contact:hover {
+    border-color: #FAFAFA;
+    background-color: #ffffff;
+    color: #000000 !important;
+}
+
 
 .py-btn-sucess {
     font-size: 16px;
@@ -472,6 +553,7 @@ p {
 @media (min-width:992px) {
     .pyx-data-lists__info {
         font-size: 16px;
+        font-weight: 400;
         line-height: 30px;
     }
 }
@@ -674,23 +756,23 @@ p {
 
 @media (min-width:768px) {
     .py-footer {
-        padding-top: 6rem;
+        padding-top: 4rem;
         padding-bottom: 4rem;
     }
 }
 
 @media (min-width:992px) {
     .py-footer {
-        padding-top: 8rem;
+        padding-top: 5rem;
         padding-bottom: 5rem;
     }
 }
 
 .py-footer__txt {
     color: rgb(255 255 255 / .8);
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
-    max-width: 310px;
+    max-width: 100%;
 }
 
 .py-footer-nav {
@@ -703,13 +785,15 @@ p {
 
 .py-footer-nav li {
     /* width: 33.33%; */
-    width: 32.33%;
+    width: 17.33%;
+    align-items: center;
 }
 
 @media (min-width:768px) {
     .py-footer-nav {
         margin-top: 1.2rem;
         margin-bottom: 1.5rem;
+        align-items: baseline;
     }
 }
 
