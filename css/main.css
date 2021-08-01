@@ -1810,6 +1810,7 @@ tbody.collapse.show {
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
+    color: white;
 }
 
 .navbar-text {
@@ -1890,6 +1891,7 @@ tbody.collapse.show {
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
+        color: white;
     }
     .navbar-expand-sm>.container,
     .navbar-expand-sm>.container-fluid {
@@ -2004,6 +2006,8 @@ tbody.collapse.show {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 0.5rem;
         padding-left: 0.5rem;
+        font-weight: 400;
+        color: black;
     }
     .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid {

@@ -19,7 +19,7 @@ header.bg-shadow {
 header a.nav-link {
     font-size: 18px;
     line-height: 28px;
-    color: #666666;
+    color: #ffffff;
     font-weight: 100;
 }
 
@@ -164,7 +164,7 @@ footer .link-gradient:before {}
         top: 50%;
         transform: translateY(-100%);
         /* background: #17B04C; */
-        background: linear-gradient(90deg, #17B04C 0, #2196f3);
+        background: linear-gradient(90deg, #000000 0, #000000);
         content: '';
         height: 3px;
         transition: all 0.5s;
@@ -185,7 +185,7 @@ footer .link-gradient:before {}
     .nav-toggle.expanded .nav-toggle-bar::after,
     .nav-toggle.expanded .nav-toggle-bar::before {
         /* background: #17B04C; */
-        background: linear-gradient(90deg, #17B04C 0, #2196f3);
+        background: linear-gradient(90deg, #000000 0, #000000);
         margin-top: 0;
     }
     .nav-toggle.expanded .nav-toggle-bar::after {
@@ -211,6 +211,7 @@ footer .link-gradient:before {}
         left: 0;
     }
     .nav.expanded {
+        background: #2b59c3;
         position: fixed;
         width: 100%;
         text-align: left;
