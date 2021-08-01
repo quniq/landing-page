@@ -38,6 +38,13 @@ li {
     }
 }
 
+@media (min-width:68px) and (max-width: 591px) {
+    .section-heading {
+        font-size: 28px;
+        /* line-height: 70px; */
+    }
+}
+
 @media (min-width:992px) {
     .section-heading {
         font-size: 65px;
@@ -50,6 +57,15 @@ li {
     line-height: 48px;
     color: #333333;
     font-weight: 400;
+}
+
+@media (min-width:68px) and (max-width: 591px) {
+    .section-heading-contact {
+        color: rgb(255, 255, 255);
+        padding-bottom: 40px;
+        font-size: 28px;
+        /* line-height: 70px; */
+    }
 }
 
 @media (min-width:768px) {
@@ -76,6 +92,13 @@ li {
     line-height: 34px;
     color: #333333;
     font-weight: 500;
+}
+
+@media (min-width:68px) and (max-width: 591px) {
+    .section-title {
+        font-size: 30px;
+        line-height: 50px;
+    }
 }
 
 @media (min-width:768px) {
@@ -265,6 +288,14 @@ p {
     font-weight: 300;
 }
 
+@media (min-width:68px) and (max-width: 591px) {
+    p {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+}
+
 @media (min-width:768px) {
     p {
         font-size: 16px;
@@ -306,6 +337,13 @@ p {
     }
 }
 
+@media (min-width:68px) and (max-width: 591px) {
+    .py-banner__heading {
+        font-size: 30px;
+        line-height: 60px;
+    }
+}
+
 @media (min-width:992px) {
     .py-banner__heading {
         font-size: 55px;
@@ -318,6 +356,15 @@ p {
     position: relative;
     display: inline-block;
     z-index: 1;
+}
+
+@media (min-width:68px) and (max-width: 591px) {
+    .py-sudeo-gd {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        font-size: 45px;
+    }
 }
 
 .py-sudeo-gd::before {
@@ -360,6 +407,15 @@ p {
     max-width: 300px;
 }
 
+@media (min-width:68px) and (max-width: 591px) {
+    .py-banner__des {
+        max-width: 560px;
+        margin-bottom: 1px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
 @media (min-width:768px) {
     .py-banner__des {
         max-width: 560px;
@@ -385,6 +441,13 @@ p {
     min-height: 100%;
 }
 
+@media (min-width:68px) and (max-width: 591px) {
+    .py-illustrator img {
+        max-width: 0%;
+        /* max-width : 48%; */
+    }
+}
+
 @media (min-width:768px) and (max-width: 991px) {
     .py-illustrator img {
         max-width: 55%;
@@ -394,7 +457,8 @@ p {
 
 @media (min-width:992px) and (max-width: 1199px) {
     .py-illustrator img {
-        width: 100%;
+        width: 70%;
+        padding-left: 200px;
         /* width  : 66%; */
     }
 }
