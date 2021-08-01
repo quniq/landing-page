@@ -620,7 +620,7 @@ p {
 
 @media (max-width:767px) {
     .pyx-feature-lists img {
-        max-width: 55%;
+        max-width: 75%;
     }
 }
 
@@ -632,7 +632,7 @@ p {
 
 @media (min-width:1280px) {
     .pyx-feature-lists img {
-        width: 72%;
+        width: 100%;
     }
 }
 
