@@ -941,27 +941,38 @@ p {
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
   
-  /* Modal Content */
-  .modal-content {
-    background-color: #ffffff;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid rgb(0, 0, 0);
-    width: 20%;
-    height: 77%;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #000000;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+/* Modal Content */
+.modal-content {
+background-color: #ffffff;
+margin: auto;
+padding: 20px;
+border: 1px solid rgb(0, 0, 0);
+width: 20%;
+height: 77%;
+}
+
+@media (min-width:68px) and (max-width: 591px) {
+    .modal-content {
+        background-color: #ffffff;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(0, 0, 0);
+        width: 90%;
+        height: 95%;
+        }
+}
+
+/* The Close Button */
+.close {
+color: #000000;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
